@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trường Học</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Thêm mã CSS cho menu -->
+    <style>
+        /* CSS cho menu */
+        ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          background-color: #333;
+        }
+
+        li {
+          float: left;
+        }
+
+        li a {
+          display: block;
+          color: white;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+        }
+
+        ul ul {
+          display: none;
+          position: absolute;
+          background-color: #f9f9f9;
+          min-width: 160px;
+          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+          z-index: 1;
+        }
+
+        ul ul li {
+          float: none;
+        }
+
+        ul ul li a {
+          color: white;
+          padding: 12px 16px;
+          text-decoration: none;
+          display: block;
+          text-align: left;
+        }
+      
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+.content, .sidebar {
+    padding: 10px;
+    background-color: white;
+}
+
+.content {
+    width: 70%;
+    border-right: 2px solid gray;
+}
+
+.sidebar {
+    width: 28%;
+}
+
+.block {
+    background-color: #e0e0e0;
+    padding: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.date {
+    color: #888;
+    font-style: italic;
+}
+    </style>
+</head>
+<body>
+    <header>
+      <CENTER> <h1>Trường Học Công Nghiệp TPHCM</h1></CENTER>
+        <!-- Thêm menu vào header -->
+        <nav>
+            <ul>
+                <li><a href="#home">Trang chủ</a></li>
+                <li>
+                    <a href="#dao_tao">Đào tạo</a>
+                    <ul>
+                        <li><a href="#do_hoa">Đồ họa</a></li>
+                        <li><a href="#web">Web</a></li>
+                        <li><a href="#mang">Mạng</a></li>
+                    </ul>
+                </li>
+                <li><a href="#dich_vu">Dịch vụ</a></li>
+                <li><a href="#lien_he">Liên hệ</a></li>
+            </ul>
+        </nav>
+    </header>
+  <div class="container">
+        <div class="content">
+            <h1>Triết lý giáo dục của chúng tôi</h1>
+           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5U-iYTP3QJsue70nk448cihHaXbYzRN50YjDVi6ehyw&s" alt="Tin Tức Mới">
+            <p class="date">@eric.gia - Ngày 10/12/2021</p>
+            <h2>Chiến lược phát triển</h2>
+          
+            <p>Xây dựng công nghệ quản lý hiện đại, hoàn thành cơ bản các điều kiện đáp ứng yêu cầu đào tạo nguồn nhân lực chất lượng cao đóng góp cho xã hội, tạo ra giá trị thực tiễn và hiệu quả từ hoạt động nghiên cứu khoa học và chuyển giao công nghệ, hợp tác quốc tế;
+
+Tiên phong trong các lĩnh vực giáo dục, nghiên cứu và chuyển giao công nghệ; thúc đẩy kết nối phục vụ cộng đồng; tạo môi trường học tập và làm việc thu hút người học và giảng viên có năng lực và trình độ cao; phát triển bền vững trên cơ sở tự chủ tài chính.</p>
+            <h2>Tầm nhìn - Sứ mạng</h2>
+            <p class="date">@eric.gia - Ngày 10/12/2021</p>
+            <p>Trở thành Trường đại học hàng đầu của Việt Nam, tiên phong trong lĩnh vực giáo dục và nghiên cứu ứng dụng, chuyển giao công nghệ và đổi mới sáng tạo:
+
+Trở thành Trường đại học hàng đầu của Việt Nam: đứng trong tốp 10 các trường đại học trong nước;
+Tiên phong trong lĩnh vực giáo dục và nghiên cứu ứng dụng: các chương trình đào tạo được tiếp cận theo hướng ứng dụng, đáp ứng được yêu cầu thực tiễn của xã hội;
+Chuyển giao công nghệ và đổi mới sáng tạo: phát triển ý tưởng mới, cải tiến, sáng tạo trong lĩnh vực chuyển giao công nghệ, ươm mầm doanh nghiệp, hợp tác và thương mại hóa sản phẩm khoa học.</p>
+        </div>
+        <div class="sidebar">
+            <div class="block">Tuyển Sinh
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5U-iYTP3QJsue70nk448cihHaXbYzRN50YjDVi6ehyw&s" alt="Tin Tức Mới">
+          </div>
+          
+            <div class="block">Thông Tin Sinh
+              Ở TP.HCM hiện nay, hệ thống các trường nghề hiện đang phát triển khá mạnh. Hầu hết các trường đều đã tu bổ cơ sở vật chất khang trang, hiện đại, cải tiến chương trình giảng dạy theo hướng tăng thời lượng thực hành, giảm thời lượng dạy lý thuyết
+              </div>
+            <div class="block">XEM THÊM
+         <img src=  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUdtRzjOfY_72xIwE-QuIIYfPhhyeRk6G0J_a6eIXmgw&s"alt="Tin Tức Mới">
+          </div>
+        
+            <h2>ĐỐI TÁC DOANH NGHIỆP</h2>
+            <div class="block">Logo Doanh Nghiệp</div>
+        </div>
+    </div>
+ 
+    <footer>
+        <p>© 2024 Trường Học ABC. All rights reserved.</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Thêm mã JavaScript cho menu -->
+    <script>
+        $(document).ready(function(){
+            $('ul li').hover(function(){
+                $(this).find('ul').stop().slideDown(200);
+            }, function(){
+                $(this).find('ul').stop().slideUp(200);
+            });
+
+            $('ul ul li').hover(function(){
+                $(this).css('background-color', ' #43b8f1');
+            }, function(){
+                $(this).css('background-color', '#333333');
+            });
+        });
+    </script>
+</body>
+</html>
